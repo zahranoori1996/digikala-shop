@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigiKala</title>
+    <link rel="stylesheet" href="./Css/reset.css">
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="./Css/header.style.css">
+    <link rel="stylesheet" href="./Css/main.style.css">
+    <link rel="stylesheet" href="./Css/mediaquery.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <!-- header -->
+        <div class="header">
+            <div class="header__orginal">
+                <img class="header__logo" src="src/icons/logodigikala.svg">
+                <input class="header__input" placeholder="جستجو">
+                <span class="header__login">
+                    <a href="#"> ثبت نام</a>
+                    <span> | </span>
+                    <a href="#">ورود</a>
+                </span>
+                <img class="header__buy" src="src/icons/buy.svg">
+            </div>
+            <div class="header__menu">
+                <ul class="header__menu-dropdown">
+                    <li class="dropdown">
+                        <img class="header__menu-icon-hamburger"  src="src/icons/menu-icon.svg">
+                        <a href="#" class="drop-btn">دسته بندی کالاها</a>
+                        <div class="dropdown-content">
+                            <a href="#">
+                                <img class="menu-item__icons" src="src/icons/laptop.svg">
+                                <span class="menu-item__text">کالای دیجیتال</span>
+                            </a>
+                            <a href="#">
+                                <img class="menu-item__icons" src="src/icons/wrench-tool.svg">
+                                <span class="menu-item__text">خودرو،ابزار و تجهیزات صنعتی</span>
+                            </a>
+                            <a href="#">
+                                <img class="menu-item__icons" src="src/icons/clothing.svg">
+                                <span class="menu-item__text">مد و پوشاک </span>
+                            </a>
+
+                            <a href="#">
+                                <img class="menu-item__icons" src="src/icons/food.svg">
+                                <span class="menu-item__text">کالاهای سوپرمارکتی</span>
+                            </a>
+                            <a href="#">
+                                <img class="menu-item__icons" src="src/icons/heart-svgrepo-com.svg">
+                                <span class="menu-item__text">زیبایی و سلامت </span>
+                            </a>
+                            <a href="#">
+                                <img class="menu-item__icons" src="src/icons/sofa-svgrepo-com.svg">
+                                <span class="menu-item__text">خانه و آشپزخانه </span>
+                            </a>
+                            <a href="#">
+                                <img class="menu-item__icons" src="src/icons/notebook-svgrepo-com.svg">
+                                <span class="menu-item__text">کتاب،لوازم تحریر و هنر </span>
+                            </a>
+                            <a href="#">
+                                <img class="menu-item__icons" src="src/icons/indian-tent-svgrepo-com.svg">
+                                <span class="menu-item__text">ورزش و سفر </span>
+                            </a>
+                            <a href="#">
+                                <img class="menu-item__icons" src="src/icons/island-house-svgrepo-com.svg">
+                                <span class="menu-item__text">محصولات بومی و محلی </span>
+                            </a>
+                        
+                        </div>
+                    </li>
+                    
+                </ul>
+                <ul  class="ul-off-mobile">
+                   <li class="header__menu-bestsellers">
+                    <a href="#">
+                        <img class="menu-item__icons" src="src/icons/fire-svgrepo-com.svg">
+                        <span class="menu-item__text">پرفروش ترین ها </span>
+                    </a>
+                   </li>
+                </ul>
+                <ul  class="ul-off-mobile">
+                    <li class="header__menu-off">
+                     <a href="#">
+                         <img class="menu-item__icons" src="src/icons/discounts-svgrepo-com.svg">
+                         <span class="menu-item__text"> تخفیف ها و پیشنهادها  </span>
+                     </a>
+                    </li>
+                 </ul>
+                 <ul class="ul-off-mobile">
+                    <li>
+                     <a href="#">
+                         <img class="menu-item__icons" src="src/icons/discountIcon.svg">
+                         <span class="menu-item__text"> شگفت انگیزها  </span>
+                     </a>
+                    </li>
+                 </ul>
+                 <ul class="ul-off-mobile">
+                    <li>
+                     <a href="#">
+                         <span class="menu-item__text">سوالی دارید ؟</span>
+                     </a>
+                    </li>
+                 </ul>
+                 <ul class="ul-off-mobile">
+                    <li>
+                     <a href="#">
+                         <span class="menu-item__text" >فروشنده شوید!</span>
+                     </a>
+                    </li>
+                 </ul>
+                 <ul class="header-location ul-off-mobile">
+                    <li>
+                     <a href="#">
+                         <img class="menu-item__icons" src="src/icons/location-svgrepo-com.svg">
+                         <span class="menu-item__text"> لطفا شهر خود را انتخاب کنید   </span>
+                     </a>
+                    </li>
+                 </ul>
+            </div>
+        </div>
+
+<hr style="color: #ccc">
+
+<!-- sliders -->
+<div id="slider">
+    <img class="slider-image" src="./src/images/silder-header-1.jpg"  alt="">
+</div>
+<div class="main-page">
+<!-- middle navbar -->
+<div class="middle-navbar">
+    <div class="middle-navbar__item">
+        <a href="#" class="middle-navbar__link">
+            <img class="middle-navbar__img" src="src/images/jet.png">
+        <span class="middle-navbar__text">دیجی کالا جت</span>
+        </a>
+    </div>
+    <div class="middle-navbar__item">
+        <a href="#" class="middle-navbar__link">
+            <img class="middle-navbar__img" src="src/images/style.png">
+        <span class="middle-navbar__text">دیجی استایل </span>
+        </a>
+    </div>
+    <div class="middle-navbar__item">
+        <a href="#" class="middle-navbar__link">
+            <img class="middle-navbar__img" src="src/images/pey.png">
+        <span class="middle-navbar__text">دیجی پی</span>
+        </a>
+    </div>
+    <div class="middle-navbar__item">
+        <a href="#" class="middle-navbar__link">
+            <img class="middle-navbar__img" src="src/images/pindo.png">
+        <span class="middle-navbar__text">پیندو</span>
+        </a>
+    </div>
+    
+    <div class="middle-navbar__item">
+        <a href="#" class="middle-navbar__link">
+            <img class="middle-navbar__img" src="src/images/mamoriaat.png">
+        <span class="middle-navbar__text">  ماموریت ها</span>
+        </a>
+    </div>
+    <div class="middle-navbar__item">
+        <a href="#" class="middle-navbar__link">
+            <img class="middle-navbar__img" src="src/images/plus.png">
+        <span class="middle-navbar__text">  دیجی پلاس</span>
+        </a>
+    </div>
+    <div class="middle-navbar__item">
+        <a href="#" class="middle-navbar__link">
+            <img class="middle-navbar__img" src="src/images/club.png">
+        <span class="middle-navbar__text">دیجی کلاب</span>
+        </a>
+    </div>
+    <div class="middle-navbar__item">
+        <a href="#" class="middle-navbar__link">
+        <img class="middle-navbar__img" src="src/images/more.png">
+        <span class="middle-navbar__text"> بیشتر</span>
+        </a>
+    </div>
+</div>
+<!-- offer and suprise -->
+<div class="amazing-offer">
+    <div>
+        <a href="#" class="amazing-offer__lable">
+        <img class="amazing-offer__text-offer" src="src/icons/amazing-typo.svg">
+        <img class="amazing-offer__img" src="src/images/shose.png">
+        <div>
+        <span class="amazing-offer__text-offer-all">مشاهده همه</span>
+        <img class="amazing-offer__arrowleft" src="src/icons/arrow-left-svgrepo-com.svg">
+    </div>
+</a>
+    </div>
+    
+</div>
+<div class="amazing-supermarket">
+<a href="#">
+    <img src="src/images/fresh.png">
+</a>
+<a href="#">
+    <img class="amazing-supermarket__imagetext" src="src/images/fresh-super-market.svg">
+</a>
+<a href="#" class="amazing-supermarket__boxoff">
+    <span>تا 39% تخفیف</span>
+</a>
+</div>
+<!-- 4banner -->
+<div class="picture-banner">
+<div class="picture-banner__item">
+    <a class="picture-banner__item-link" href="#">
+    <img class="img-responsive" src="src/images/nodel.jpg">
+</a>
+<a class="picture-banner__item-link" href="#">
+    <img class="img-responsive" src="src/images/tazh.jpg">
+</a>
+<a class="picture-banner__item-link" href="#">
+    <img class="img-responsive" src="src/images/sofa.gif">
+</a>
+<a class="picture-banner__item-link" href="#">
+    <img class="img-responsive" src="src/images/coffe.jpg">
+</a>
+
+</div>
+</div>
+<!-- daste bandi digi kala -->
+<p class="text-regroupement">دسته بندی های دیجی کالا</p>
+<div class="regroupement">
+    <div class="regroupement__item">
+        <a href="#" class="regroupement__link">
+            <img class="regroupement__img" src="src/images/applewatch.png">
+        <span class="regroupement__text">کالای دیجیتال</span>
+        </a>
+    </div>
+    <div class="regroupement__item">
+        <a href="#" class="regroupement__link">
+            <img class="regroupement__img" src="src/images/sanaat.png">
+        <span class="regroupement__text"> خودرو، ابزار و تجهیزات صنعتی </span>
+        </a>
+    </div>
+    <div class="regroupement__item">
+        <a href="#" class="regroupement__link">
+            <img class="regroupement__img" src="src/images/modfashion.png">
+        <span class="regroupement__text"> مد و پوشاک</span>
+        </a>
+    </div>
+    <div class="regroupement__item">
+        <a href="#" class="regroupement__link">
+            <img class="regroupement__img" src="src/images/asbabbazi.png">
+        <span class="regroupement__text">اسباب بازی، کودک و نوزاد</span>
+        </a>
+    </div>
+    <div class="regroupement__item">
+        <a href="#" class="regroupement__link">
+            <img class="regroupement__img" src="src/images/milki.png">
+        <span class="regroupement__text"> کالاهای سوپرمارکتی </span>
+        </a>
+    </div>
+    <div class="regroupement__item">
+        <a href="#" class="regroupement__link">
+            <img class="regroupement__img" src="src/images/makeup.png">
+        <span class="regroupement__text">  زیبایی و سلامت</span>
+        </a>
+    </div>
+    <div class="regroupement__item">
+        <a href="#" class="regroupement__link">
+            <img class="regroupement__img" src="src/images/homehouse.png">
+        <span class="regroupement__text"> خانه و آشپزخانه </span>
+        </a>
+    </div>
+    <div class="regroupement__item">
+        <a href="#" class="regroupement__link">
+            <img class="regroupement__img" src="src/images/books.png">
+        <span class="regroupement__text"> کتاب، لوازم تحریر و هنر</span>
+        </a>
+        </div>
+        <div class="regroupement__item">
+            <a href="#" class="regroupement__link">
+                <img class="regroupement__img" src="src/images/heath.png">
+            <span class="regroupement__text"> ورزش و سفر</span>
+            </a>
+        </div>
+        <div class="regroupement__item">
+            <a href="#" class="regroupement__link">
+                <img class="regroupement__img" src="src/images/sonati.png">
+            <span class="regroupement__text"> محصولات بومی و محلی</span>
+            </a>
+        </div>
+        
+    </div>
+    <!-- banner 2tae -->
+    <div class="banner-two">
+        <a href="#" class="banner-two-flex">
+        <img class="banner-two__image" src="src/images/pad.jpg">
+    </a>
+    <a href="#"  class="banner-two-flex">
+        <img class="banner-two__image" src="src/images/tea.jpg">
+    </a>
+    </div>
+    <!-- Suggested by Digikala  -->
+    <p class="text-regroupement"> پیشنهاد دیجی کالا</p>
+    <div class="suggested">
+        <div href="#" class="suggested__item">
+        <a href="#" class="suggested__item-link">
+            <img class="suggested__image" src="src/images/mobile-suggested.jpg">
+            <span class="suggested__text">گوشی موبایل</span>
+        </a>
+    </div>
+    <div href="#" class="suggested__item">
+        <a href="#" class="suggested__item-link">
+            <img class="suggested__image" src="src/images/cable.jpg">
+            <span class="suggested__text">کابل و مبدل</span>
+        </a>
+        </div>
+
+         <div href="#" class="suggested__item">
+        <a href="#" class="suggested__item-link">
+            <img class="suggested__image" src="src/images/speeker.jpg">
+            <span class="suggested__text">اسپیکر (بلندگو)</span>
+        </a>
+         </div>
+
+          <div href="#" class="suggested__item">
+        <a href="#" class="suggested__item-link">
+            <img class="suggested__image" src="src/images/powerbank.jpg">
+            <span class="suggested__text">پاوربانک (شارژر همراه)</span>
+        </a>
+          </div>
+
+  <div href="#" class="suggested__item">
+        <a href="#" class="suggested__item-link">
+            <img class="suggested__image" src="src/images/padmuose.jpg">
+            <span class="suggested__text">ماوس پد</span>
+        </a>
+        </div>
+
+          <div href="#" class="suggested__item">
+        <a href="#" class="suggested__item-link">
+            <img class="suggested__image" src="src/images/modem.jpg">
+            <span class="suggested__text">مودم - روتر 3G و 4G و 5G</span>
+        </a>
+        </div>
+
+          <div href="#" class="suggested__item">
+        <a href="#" class="suggested__item-link">
+            <img class="suggested__image" src="src/images/couldcpu.jpg">
+            <span class="suggested__text">خنک کننده پردازنده </span>
+        </a>
+        </div>
+        
+        <div href="#" class="suggested__item">
+            <a href="#" class="suggested__item-link">
+            <img class="suggested__image" src="src/images/headphone.jpg">
+            <span class="suggested__text">هدفون، هدست و هندزفری </span>
+        </a>
+        </div>
+        <div href="#" class="suggested__item">
+            <a href="#" class="suggested__item-link">
+            <img class="suggested__image" src="src/images/laptop.jpg">
+            <span class="suggested__text">لپ تاپ و الترابوک</span>
+        </a>
+        </div>
+
+          <div href="#" class="suggested__item">
+        <a href="#" class="suggested__item-link">
+            <img class="suggested__image" src="src/images/sharjer.jpg">
+            <span class="suggested__text">شارژر تبلت و موبایل</span>
+        </a>
+        </div>
+
+          <div href="#" class="suggested__item">
+        <a href="#" class="suggested__item-link">
+            <img class="suggested__image" src="src/images/watch.jpg">
+            <span class="suggested__text">ساعت هوشمند</span>
+        </a>
+        </div>
+
+          <div href="#" class="suggested__item">
+        <a href="#" class="suggested__item-link">
+            <img class="suggested__image" src="src/images/tablet.jpg">
+            <span class="suggested__text">تبلت</span>
+        </a>
+        </div>
+
+          <div href="#" class="suggested__item">
+        <a href="#" class="suggested__item-link">
+            <img class="suggested__image" src="src/images/memory.jpg">
+            <span class="suggested__text">کارت حافظه</span>
+        </a>
+        </div>
+        <div href="#" class="suggested__item">
+            <a href="#" class="suggested__item-link">
+                <img class="suggested__image" src="src/images/shiralat.jpg">
+                <span class="suggested__text">شیرآلات</span>
+            </a>
+            </div>
+        
+    </div>
+    <!-- banner 2tae -->
+    <div class="banner-two">
+        <a href="#" class="banner-two-flex">
+        <img class="banner-two__image" src="src/images/shosebanner.jpg">
+    </a>
+    <a href="#">
+        <img class="banner-two__image" src="src/images/cifebanner.jpg">
+    </a>
+    </div>
+    <!-- pouplar brands -->
+    <div class="pouplar-brands">
+        <div class="pouplar-brands__title">
+            <img class="pouplar-brands__title-icon" src="src/icons/favorites-star-svgrepo-com.svg">
+            <span class="pouplar-brands__title-text"> مجبوب ترین برندها</span>
+        </div>
+        <div class="pouplar-brands__item">
+        <div class="pouplar-brands__title-image">
+            <a href="#" >
+            <img class="pouplar-brands__image" src="src/images/samsung.jpg">
+        </a>
+        </div>
+        <div class="pouplar-brands__title-image">
+            <a href="#" >
+                <img class="pouplar-brands__image" src="src/images/xiyami.png">
+            </a>
+        </div>
+        <div class="pouplar-brands__title-image">
+            <a href="#" >
+                <img class="pouplar-brands__image" src="src/images/kalee.png">
+            </a>
+        </div>
+        <div class="pouplar-brands__title-image">
+            <a href="#" >
+                <img class="pouplar-brands__image" src="src/images/my.png">
+            </a>
+        </div>
+        <div class="pouplar-brands__title-image">
+            <a href="#" >
+                <img class="pouplar-brands__image" src="src/images/bioacua.png">
+            </a>     
+           </div>
+        <div class="pouplar-brands__title-image">
+            <a href="#" >
+                <img class="pouplar-brands__image" src="src/images/schon.jpg">
+            </a>       
+         </div>
+        <div class="pouplar-brands__title-image">
+            <a href="#" >
+                <img class="pouplar-brands__image" src="src/images/mahia.png">
+            </a>
+                </div>
+      
+    </div>
+    </div>
+    <!-- box 4 products -->
+    <div class="box-four-products">
+        <div class="box-four-products__mobile">
+            <div> 
+                <h4>گوشی موبایل</h4>
+                <p>بر اساس بازدیدهای شما</p>
+            </div>
+            <div class="box-four-products__images">
+            <a href="#" >
+                <img class="box-four-products__image" src="src/images/mobile1.jpg">
+            </a>
+            <a href="#" >
+                <img class="box-four-products__image" src="src/images/mobile2.jpg">
+            </a>
+            <a href="#" >
+                <img class="box-four-products__image" src="src/images/mobile3.jpg">
+            </a>
+            <a href="#" >
+                <img class="box-four-products__image" src="src/images/mobile4.jpg">
+            </a>
+
+        </div>
+        <div class="box-four-products__text-show">
+            <a href="#" >
+                مشاهده
+            </a>
+        </div>
+        </div>
+        <div class="box-four-products__bags-cover">
+            <div> 
+                <h4>کیف و کاور گوشی</h4>
+                <p>بر اساس بازدیدهای شما</p>
+            </div>
+            <div class="box-four-products__images">
+            <a href="#" >
+                <img class="box-four-products__image" src="src/images/cover-iphone.jpg">
+            </a>
+            <a href="#" >
+                <img class="box-four-products__image" src="src/images/cover-samoraee.jpg">
+            </a>
+            <a href="#" >
+                <img class="box-four-products__image" src="src/images/cover-black.jpg">
+            </a>
+            <a href="#" >
+                <img class="box-four-products__image" src="src/images/cover-greenblue.jpg">
+            </a>
+
+        </div>
+        <div class="box-four-products__text-show">
+            <a href="#" >
+                مشاهده
+            </a>
+        </div>
+        </div>
+        <div class="box-four-products__headphone">
+            <div> 
+                <h4>هدفون، هدست و هندزفری</h4>
+                <p>بر اساس بازدیدهای شما</p>
+            </div>
+            <div class="box-four-products__images">
+            <a href="#" >
+                <img class="box-four-products__image" src="src/images/headset.jpg">
+            </a>
+            <a href="#" >
+                <img class="box-four-products__image" src="src/images/headset1.jpg">
+            </a>
+            <a href="#" >
+                <img class="box-four-products__image" src="src/images/headset2.jpg">
+            </a>
+            <a href="#" >
+                <img class="box-four-products__image" src="src/images/headset3.jpg">
+            </a>
+
+        </div>
+        <div class="box-four-products__text-show">
+            <a href="#" >
+                مشاهده
+            </a>
+        </div>
+        </div>
+        <div class="box-four-products__watch">
+            <div> 
+                <h4>ساعت هوشمند </h4>
+                <p>بر اساس بازدیدهای شما</p>
+            </div>
+            <div class="box-four-products__images">
+            <a href="#" >
+                <img class="box-four-products__image" src="src/images/watch-1.jpg">
+            </a>
+            <a href="#" >
+                <img class="box-four-products__image" src="src/images/watch-2.jpg">
+            </a>
+            <a href="#" >
+                <img class="box-four-products__image" src="src/images/watch-3.jpg">
+            </a>
+            <a href="#" >
+                <img class="box-four-products__image" src="src/images/watch-4.jpg">
+            </a>
+
+        </div>
+        <div class="box-four-products__text-show">
+            <a href="#" >
+                مشاهده
+            </a>
+        </div>
+        </div>
+    </div>
+
+<!-- digiplus badge -->
+    <div class="digiplus-badge">
+        <div class="digiplus-badge__membership">
+            <a href="#" >
+               <img src="src/images/digiplus-logo.svg">
+            </a>
+            <p>خدمات ویژه برای اعضای دیجی‌پلاس</p>
+            <a href="#">
+                <span class="digiplus-badge__membership-text"> عضویت</span>
+            </a>
+            <img class="digiplus-badge__membership-image" src="src/images/plus-widget.png">
+        </div>
+        <div class="digiplus-badge__gif">
+            <div class="digiplus-badge__gif-top">
+                <p>هدیه نقدی</p>
+                <a href="#" >
+                    <p> مشاهده همه</p>
+                     </a>
+            </div>
+           <div class="digiplus-badge__gif-images">
+            <a href="#" >
+                <img class="digiplus-badge__gif-image" src="src/images/ladan.jpg">
+                <p class="digiplus-badge__gif-price">2,700 تومان هدیه</p>
+             </a>
+             <a href="#" >
+                <img class="digiplus-badge__gif-image" src="src/images/bahar.jpg">
+                <p class="digiplus-badge__gif-price">2,000 تومان هدیه</p>
+             </a>
+             <a href="#" >
+                <img class="digiplus-badge__gif-image" src="src/images/bizhan.jpg">
+                <p class="digiplus-badge__gif-price">1,000 تومان هدیه</p>
+             </a>
+             <a href="#" >
+                <img class="digiplus-badge__gif-image" src="src/images/lavashak.jpg">
+                <p class="digiplus-badge__gif-price">3,300 تومان هدیه</p>
+             </a>
+             <a href="#" >
+                <img class="digiplus-badge__gif-image" src="src/images/tonfish.jpg">
+                <p class="digiplus-badge__gif-price">4,700 تومان هدیه</p>
+             </a>
+             <a href="#" >
+                <img class="digiplus-badge__gif-image" src="src/images/dastmalkaqazi.jpg">
+                <p class="digiplus-badge__gif-price">3,100 تومان هدیه</p>
+             </a>
+            </div>
+        </div>
+        <div class="digiplus-badge__submit">
+            <div class="digiplus-badge__gif-top">
+                <p>هدیه نقدی</p>
+                <a href="#" >
+                    <p> مشاهده همه</p>
+                     </a>
+            </div>
+           <div class="digiplus-badge__gif-images">
+            <a href="#" >
+                <img class="digiplus-badge__gif-image" src="src/images/pinkheadset.jpg">
+                <p class="digiplus-badge__gif-price">346,000 تومان هدیه</p>
+             </a>
+             <a href="#" >
+                <img class="digiplus-badge__gif-image" src="src/images/mobile1.jpg">
+                <p class="digiplus-badge__gif-price">223,200 تومان هدیه</p>
+             </a>
+             <a href="#" >
+                <img class="digiplus-badge__gif-image" src="src/images/payemobile.jpg">
+                <p class="digiplus-badge__gif-price">5,700 تومان هدیه</p>
+             </a>
+             <a href="#" >
+                <img class="digiplus-badge__gif-image" src="src/images/greenpaye.jpg">
+                <p class="digiplus-badge__gif-price">4,200 تومان هدیه</p>
+             </a>
+             <a href="#" >
+                <img class="digiplus-badge__gif-image" src="src/images/astincontorol.jpg">
+                <p class="digiplus-badge__gif-price">7,500 تومان هدیه</p>
+             </a>
+             <a href="#" >
+                <img class="digiplus-badge__gif-image" src="src/images/peril.jpg">
+                <p class="digiplus-badge__gif-price">1,700 تومان هدیه</p>
+             </a>
+            </div>
+        </div>
+    </div>
+    <!-- banner  -->
+    <div class="banner">
+        <div class="banner-logo">
+            <img class="banner-logo-img" src="src/images/digiclub-logo-white.svg">
+           <div class="banner-item">
+            <a href="#" class="banner-logo__item-lucky"> 
+                <h5>گردونه شانس</h5>
+                <img class="banner-logo__lucky" src="src/images/lucky-draw.png">
+            </a>
+            
+            <a href="#" class="banner-logo__item-missions"> 
+                <h5> ماموریت ها</h5>
+                <img class="banner-logo__lucky" src="src/images/missions.png">
+            </a>
+            
+            <a href="#" class="banner-logo__item-awards"> 
+                <h5> جایزه ها</h5>
+                <img class="banner-logo__lucky" src="src/images/awards.png">
+            </a>
+           </div>
+        </div>
+
+    </div>
+
+
+<!-- banner final -->
+<div class="banner-final">
+    <a href="#" class="banner-final__link">
+        <img  class="banner-final__image" src="src/images/banner.jpg">
+    </a>
+</div>
+<!-- reading  -->
+<div class="reading">
+    <div class="reading-head">
+        <p class="reading-text">خواندنی ها</p>
+        <a href="#" class="reading__link"> مطالب بیشتر در دیجی‌کالا مگ </a>
+    </div>
+    <div class="reading-card">
+        <a href="#" class="reading-card__link">
+            <img class="reading-card__image" src="src/images/reading1.jpg">
+            <p class="reading-card__text">LG با وجود تعطیل کردن بخش موبایل، به دنبال کسب درآمد از آن است</p>
+        </a>
+        <a href="#" class="reading-card__link">
+            <img class="reading-card__image" src="src/images/reading2.jpg">
+            <p class="reading-card__text">۱۰ عادت کودکان بسیار حساس</p>
+        </a>
+        <a href="#" class="reading-card__link">
+            <img class="reading-card__image" src="src/images/reading3.jpg">
+            <p class="reading-card__text">طراحی و مشخصات کلیدی ردمی K50 پرو و K50 پرو پلاس تأیید شد</p>
+        </a>
+        <a href="#" class="reading-card__link">
+            <img class="reading-card__image" src="src/images/reading4.jpg">
+            <p class="reading-card__text"> گوشی مورد انتظار وان‌پلاس نورد ۲T طراحی خاصی خواهد داشت</p>
+        </a>
+    </div>
+</div>
+<!-- main page -->
+</div>
+<hr style="opacity: 17%">
+
+<!-- footer -->
+<div class="footer">
+    <div class="footer-wrapper">
+        <img class="footer-wrapper__image" src="src/images/digi.svg">
+        <a href="#" class="footer-wrapper__text"> بازگشت به بالا</a>
+    </div>
+    <div class="footer-wrapper__text-call">
+        <span class="footer-wrapper__texts-call">تلفن پشتیبانی ۶۱۹۳۰۰۰۰ - ۰۲۱ </span>
+        <span class="footer-wrapper__texts-call-among"> | </span>
+        <span class="footer-wrapper__texts-call"> ۷ روز هفته، ۲۴ ساعته پاسخگوی شما هستیم </span>
+    </div>
+    <div class="footer-wrapper__logo">
+            <a class="footer-wrapper__logo-express" href="#" >
+                <img class="footer-wrapper__img" src="src/images/express-delivery.svg">
+                <span class="footer-wrapper__text-express" >اﻣﮑﺎن ﺗﺤﻮﯾﻞ اﮐﺴﭙﺮس</span>
+            </a>
+            <a class="footer-wrapper__logo-express" href="#" >
+                <img class="footer-wrapper__img" src="src/images/cash-on-delivery.svg">
+                <span class="footer-wrapper__text-express" >امکان پرداخت در محل</span>
+            </a>
+            <a class="footer-wrapper__logo-express" href="#" >
+                <img class="footer-wrapper__img" src="src/images/support.svg">
+                <span class="footer-wrapper__text-express" >۷ روز ﻫﻔﺘﻪ، ۲۴ ﺳﺎﻋﺘﻪ</span>
+            </a>
+            <a class="footer-wrapper__logo-express" href="#" >
+                <img class="footer-wrapper__img" src="src/images/days-return.svg">
+                <span class="footer-wrapper__text-express" >  هفت روز ضمانت بازگشت کالا</span>
+            </a>
+            <a class="footer-wrapper__logo-express" href="#" >
+                <img class="footer-wrapper__img" src="src/images/original-products.svg">
+                <span class="footer-wrapper__text-express" >ﺿﻤﺎﻧﺖ اﺻﻞ ﺑﻮدن ﮐﺎﻟﺎ  </span>
+            </a>
+    
+    </div>
+    <div class="footer-wrapper-links">
+        <div class="footer-wrapper-links__digikala">
+            <p>با دیجی‌کالا</p>
+            <a href="#" >اتاق خبر دیجی‌کالا</a>
+            <a href="#" >فروش در دیجی‌کالا</a>
+            <a href="#" >فرصت‌های شغلی</a>
+            <a href="#" >تماس با دیجی‌کالا</a>
+            <a href="#" >درباره دیجی‌کالا</a>
+        </div>
+        <div class="footer-wrapper-links__digikala">
+            <p>خدمات مشتریان </p>
+            <a href="#" >پاسخ به پرسش های متداول</a>
+            <a href="#" >رویه های بازگرداندن کالا  </a>
+            <a href="#" > شرایط استفاده</a>
+            <a href="#" >حریم خصوصی  </a>
+            <a href="#" >گزارش باگ </a>
+        </div>
+        <div class="footer-wrapper-links__digikala">
+            <p>راهنمای خرید از دیجی‌کالا</p>
+            <a href="#" > نحوه ثبت سفارش </a>
+            <a href="#" > رویه ارسال سفارش </a>
+            <a href="#" > شیوه های پرداخت</a>
+           
+        </div>
+        <div class="footer-wrapper-links__digikala">
+            <p>همراه ما باشید</p>
+            <a href="#" >اتاق خبر دیجی‌کالا</a>
+            <a href="#" >فروش در دیجی‌کالا</a>
+            <a href="#" >فرصت‌های شغلی</a>
+            <a href="#" >درباره دیجی‌کالا</a>
+        </div>
+    </div>
+
+</div>
+<div class="about-me">
+    <a href="mailto:zahranuori.1375@gmail.com">طراحی و پیاده سازی توسط زهرا نوری سُرخَنی همراه با ❤️</a> 
+</div>
+<!-- div final -->
+    </div>
+    <script src="js/silder.js"></script>
+</body>
+</html>
+

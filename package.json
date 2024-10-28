@@ -1,0 +1,12 @@
+{
+  "name": "project-digikala",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "zahra noori sorkhani",
+  "license": "ISC",
+  "description": "Simulation of digikala goods with HTML CSS"
+}
