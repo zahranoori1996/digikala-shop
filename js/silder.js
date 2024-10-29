@@ -15,18 +15,18 @@ const srcImagesSlider = [
 ];
 let counter = 0;
 window.addEventListener("load", ()=>{
-    console.log("ccc");
+
     setInterval(()=>{
       
         if(counter < srcImagesSlider.length){
             
             sliderImage.setAttribute("src",srcImagesSlider[counter]);
-            console.log(srcImagesSlider[counter]);
+
             counter++;
        
         }else if(counter === srcImagesSlider.length){
             counter = 0;
         }
-        console.log(counter);
+
     },5000)
 })

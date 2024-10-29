@@ -58,7 +58,8 @@
 
 }
 .header__menu-icon-hamburger {
-  width: 1rem;
+  cursor: pointer;
+  width: 2rem;
   height: 1rem;
   filter: invert(27%) sepia(100%) saturate(36%) hue-rotate(22deg)
     brightness(87%) contrast(108%);
@@ -75,13 +76,17 @@ a {
   text-decoration: none;
   color: #333;
 }
+.dropdown {
+  /* display: flex; */
+  /* gap: 10px; */
+  transition: all 250ms ease-in 250ms;
+  -webkit-transition: all 250ms ease-in 250ms;
+  -moz-transition: all 250ms ease-in 250ms;
+  -ms-transition: all 250ms ease-in 250ms;
+  -o-transition: all 250ms ease-in 250ms;
+}
 .dropdown:hover .dropdown-content {
   display: block;
-}
-.dropdown {
-  display: flex;
-  gap: 10px;
-
 }
 
 .dropdown-content {
@@ -91,6 +96,12 @@ a {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+}
+.show{
+  display: block;
+}
+.grouping{
+  padding: 10px 0;
 }
 
 .dropdown-content a {
