@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "srcImage" : "./src/images/laptop.jpg",
+        "title": "لپ تاپ 15.6 اینچی ایسوس مدل Vivobook E1504GA-BQ509-i3 N305 4GB 512SSD",
+        "price": 11000000,
+        "off": 11
+    },
+    {
+        "id": 2,
+        "srcImage" : "./src/images/ladan.jpg",
+        "title": "روغن نباتی لادن خوشمزه و بامزه ",
+        "price": 198000,
+        "off": 40
+    },
+    {
+        "id": 3,
+        "srcImage" : "./src/images/lavashak.jpg",
+        "title": "لواشک برند معروف ترش و ملس",
+        "price": 35000,
+        "off": 90
+    },
+    {
+        "id": 4,
+        "srcImage" : "./src/images/shiralat.jpg",
+        "title": "شیرآلات حمام مارک معتبر خارجکی",
+        "price": 379000,
+        "off": 13
+    },
+    {
+        "id": 5,
+        "srcImage" : "./src/images/watch.jpg",
+        "title": "ساعت خیلی هوشمند که صبحا نونم میگیره ",
+        "price": 2790000,
+        "off": 79
+    },
+    {
+        "id": 6,
+        "srcImage" : "./src/images/pinkheadset.jpg",
+        "title": "ایرپاد صورتی دخترونه",
+        "price": 964000,
+        "off": 61
+    },
+    {
+        "id": 7,
+        "srcImage" : "./src/images/modem.jpg",
+        "title": "مودم برند آیفون باکلاس پرومکس",
+        "price": 562000,
+        "off": 39
+    },
+    {
+        "id": 8,
+        "srcImage" : "./src/images/headphone.jpg",
+        "title": "هندزفری پولی سفید لایت ",
+        "price": 199000,
+        "off": 19
+    },
+    {
+        "id": 9,
+        "srcImage" : "./src/images/cover-black.jpg",
+        "title": "کاور گوشی شیائومی از این خفنا",
+        "price": 97000,
+        "off": 21
+    },
+    { 
+        "id": 10,
+        "srcImage" : "./src/images/bizhan.jpg",
+        "title": "سس بیژن باژَن 450 گرمی",
+        "price": 34000,
+        "off": 50
+    },
+    {
+        "id": 11,
+        "srcImage" : "./src/images/tonfish.jpg",
+        "title": "تن ماهی طبیعت",
+        "price": 69000,
+        "off": 49
+    }
+]
