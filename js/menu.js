@@ -1,4 +1,4 @@
-let menuItem = $.querySelector(".dropdown");
+let menuItem = $.querySelector(".grouping");
 let menuHumburgerIcon = $.querySelector(".header__menu-icon-hamburger")
 let dropdwonMenu = $.querySelector(".dropdown-content");
 console.log(menuHumburgerIcon);
