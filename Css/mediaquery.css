@@ -1,8 +1,8 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .container {
+  /* .container {
     background: rgb(222, 120, 120);
-  }
+  } */
 
   .header {
     display: flex;
@@ -233,9 +233,9 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 601px) and (max-width:767px) {
-  .container {
+  /* .container {
     background: green;
-  }
+  } */
 
   .ul-off-mobile {
     display: none;
@@ -311,9 +311,9 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 767px) {
-  .container {
+  /* .container {
     background: rgb(135, 209, 225);
-  }
+  } */
 
   .header__login {
     padding: .7rem;
@@ -371,9 +371,9 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .container {
+  /* .container {
     background: orange;
-  }
+  } */
 
   .header__login {
     padding: 1rem;
@@ -398,9 +398,9 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .container {
+  /* .container {
     background: rgb(207, 106, 229);
-  }
+  } */
 
   .menu-item__text {
     font-size: 1rem;
